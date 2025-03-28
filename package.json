@@ -1,0 +1,18 @@
+{
+  "name": "test-isolated-vm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --no-node-snapshot app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "isolated-vm": "^5.0.4",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.9"
+  }
+}
